@@ -13,9 +13,9 @@
     outline: none;
 }
 
-body{
-    max-width: 1400px;
-    width: 100%;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .txt-c{
