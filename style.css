@@ -11,6 +11,10 @@
     outline: none;
 }
 
+body{
+    max-width: 1400px;
+}
+
 .txt-c{
     text-align: center;
 }
@@ -137,6 +141,31 @@ main p{
 
 .card.three{
     background-color: #FFF4D6;
+}
+
+.make-difference{
+    display: flex;
+}
+
+.make-difference img{
+    width: 50%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.aside-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.aside-texts button{
+    max-width: 50%;
+}
+
+.aside-texts h2,.aside-texts p,.aside-texts button{
+    width: 70%; 
+    margin-left: 2rem;   
 }
 
 #email-box{
