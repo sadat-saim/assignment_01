@@ -157,6 +157,8 @@ main p{
 
 .make-difference{
     display: flex;
+    justify-content: space-between;
+    width: 75%;
 }
 
 .make-difference img{
@@ -181,7 +183,6 @@ main p{
 
 .aside-texts h2,.aside-texts p,.aside-texts button{
     width: 70%; 
-    margin-left: 2rem;   
 }
 
 /* newsletter section style */
