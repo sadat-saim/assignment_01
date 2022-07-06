@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+/* utilities */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -63,6 +65,8 @@ button{
     cursor: pointer;
 }
 
+/* header section style */
+
 header{
     background-image: url(./images/header-background.png);
     background-repeat: no-repeat;
@@ -85,6 +89,8 @@ main p{
     max-width: 80%;
 }
 
+/* donate-today section style */
+
 .donate-today{
     max-width: 60%;
 }
@@ -103,6 +109,7 @@ main p{
     padding: 2rem 1rem;
     font-size: 1.5rem;
     font-weight: 600;
+    color:#707070;
 }
 
 .card-tk.active{
@@ -126,6 +133,8 @@ main p{
     opacity: 0.5;
 }
 
+/* donation plan section style */
+
 .card{
     max-width: 28%;
     padding: 2rem 1rem;
@@ -142,6 +151,8 @@ main p{
 .card.three{
     background-color: #FFF4D6;
 }
+
+/* make-difference section style */
 
 .make-difference{
     display: flex;
@@ -163,15 +174,21 @@ main p{
     max-width: 50%;
 }
 
+.aside-texts p{
+    color:#707070;
+}
+
 .aside-texts h2,.aside-texts p,.aside-texts button{
     width: 70%; 
     margin-left: 2rem;   
 }
 
+/* newsletter section style */
+
 #email-box{
     border: none;
     background-color: #FFF4D6;
-    padding: 3rem 4rem;
+    padding: 3rem 4rem 4.3rem;
     max-width: 75%;
     margin-top: 2.5rem;
 }
@@ -189,6 +206,8 @@ input[type="email"]{
     border-radius: 0 5px 5px 0;
     padding: 0.5rem 1.5rem;
 }
+
+/* footer section style */
 
 footer{
     background-color: #0B0D17;
